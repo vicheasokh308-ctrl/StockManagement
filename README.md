@@ -1,2 +1,0 @@
-# StockManagement
-Project stock company
