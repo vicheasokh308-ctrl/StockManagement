@@ -164,3 +164,87 @@ input.form-control:focus {
         gap: 15px;
     }
 }
+
+/* ================= SUPPLIER TABLE ================= */
+
+.supplier-table-wrapper {
+    background: #fff;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Table header */
+.table thead {
+    background: #ece4ff;
+    font-weight: 600;
+}
+
+/* Table hover */
+.table-hover tbody tr:hover {
+    background: #f4f2ff;
+}
+
+/* Action icons */
+.action-icon {
+    font-size: 18px;
+    margin: 0 6px;
+    cursor: pointer;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+    .action-icon:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+.text-purple {
+    color: #7b2ff7;
+}
+
+/* Checkboxes spacing */
+input[type="checkbox"] {
+    transform: scale(1.1);
+}
+
+/* ================= RESPONSIVE ================= */
+
+/* Tablet */
+@media (max-width: 992px) {
+    .action-icon {
+        font-size: 20px;
+        margin: 0 8px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .table {
+        font-size: 14px;
+    }
+
+    td, th {
+        padding: 10px 8px;
+    }
+
+    input[type="checkbox"] {
+        transform: scale(1);
+    }
+
+    .action-icon {
+        font-size: 22px;
+    }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+    .table thead th:nth-child(3),
+    .table tbody td:nth-child(3) {
+        display: none; /* Hide 'Sex' on small phones */
+    }
+
+    .table thead th:nth-child(4),
+    .table tbody td:nth-child(4) {
+        display: none; /* Hide 'Address' on small phones */
+    }
+}

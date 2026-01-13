@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StockManagementProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66cf9e05c13eaa66b5cfcbd30db9f2e13fd2d867")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7ec6b3ae8852448e10175be520b9309243fb2c3")]
 [assembly: System.Reflection.AssemblyProductAttribute("StockManagementProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StockManagementProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

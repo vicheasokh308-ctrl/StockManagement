@@ -84,70 +84,83 @@
     </div>
 </div>
 
- <!-- Add New Supplier Modal End -->
-
-    <div class="table-responsive">
-        <table class="table table-hover align-middle">
-            <thead>
+    <!-- ================= RESPONSIVE SUPPLIER TABLE ================= -->
+    <div class="table-responsive supplier-table-wrapper">
+        <table class="table table-hover align-middle text-nowrap">
+            <thead class="table-light">
                 <tr>
                     <th>Supplier ID</th>
                     <th>Supplier Name</th>
-                    <th>Supplier Sex</th>
+                    <th>Sex</th>
                     <th>Address</th>
-                    <th>Actions</th>
+                    <th class="text-center">Actions</th>
                 </tr>
             </thead>
 
             <tbody>
                 <tr>
                     <td>BC2022110001</td>
-                    <td><input type="checkbox" /> Phoenix Baker</td>
+                    <td>
+                        <input type="checkbox" class="me-2">
+                        Phoenix Baker
+                    </td>
                     <td>Female</td>
                     <td>PP</td>
-                    <td>
-                         <i class="fa fa-pen text-purple" data-bs-toggle="modal" data-bs-target="#editSupplierModal1"></i>
-                        <i class="fa fa-trash text-danger action-icon" role="button" data-bs-target="#deleteModal" data-bs-toggle="modal"></i>
+                    <td class="text-center">
+                        <i class="fa fa-pen action-icon text-purple"
+                           data-bs-toggle="modal"
+                           data-bs-target="#editSupplierModal1"></i>
+                        <i class="fa fa-trash action-icon text-danger"
+                           data-bs-toggle="modal"
+                           data-bs-target="#deleteModal"></i>
                     </td>
                 </tr>
 
                 <tr>
-                    <td>BC2022110001</td>
-                    <td><input type="checkbox" /> Lana Steiner</td>
+                    <td>BC2022110002</td>
+                    <td>
+                        <input type="checkbox" class="me-2">
+                        Lana Steiner
+                    </td>
                     <td>Male</td>
                     <td>USA</td>
-                    <td>
-                         <i class="fa fa-pen text-purple" data-bs-toggle="modal" data-bs-target="#editSupplierModal1"></i>
-                         <i class="fa fa-trash text-danger action-icon" role="button" data-bs-target="#deleteModal" data-bs-toggle="modal"></i>
+                    <td class="text-center">
+                        <i class="fa fa-pen action-icon text-purple"></i>
+                        <i class="fa fa-trash action-icon text-danger"></i>
                     </td>
                 </tr>
 
                 <tr>
-                    <td>BC2022110001</td>
-                    <td><input type="checkbox" /> Demi Wilkinson</td>
+                    <td>BC2022110003</td>
+                    <td>
+                        <input type="checkbox" class="me-2">
+                        Demi Wilkinson
+                    </td>
                     <td>Male</td>
                     <td>Korean</td>
-                    <td>
-                        <i class="fa fa-pen text-purple" data-bs-toggle="modal" data-bs-target="#editSupplierModal1"></i>
-                        <i class="fa fa-trash text-danger action-icon" role="button" data-bs-target="#deleteModal" data-bs-toggle="modal"></i>
+                    <td class="text-center">
+                        <i class="fa fa-pen action-icon text-purple"></i>
+                        <i class="fa fa-trash action-icon text-danger"></i>
                     </td>
                 </tr>
 
                 <tr>
-                    <td>BC2022110001</td>
-                    <td><input type="checkbox" /> Candice Wu</td>
+                    <td>BC2022110004</td>
+                    <td>
+                        <input type="checkbox" class="me-2">
+                        Candice Wu
+                    </td>
                     <td>Female</td>
                     <td>France</td>
-                    <td>
-                         <i class="fa fa-pen text-purple" data-bs-toggle="modal" data-bs-target="#editSupplierModal1"></i>
-                         <i class="fa fa-trash text-danger action-icon" role="button" data-bs-target="#deleteModal" data-bs-toggle="modal"></i>
+                    <td class="text-center">
+                        <i class="fa fa-pen action-icon text-purple"></i>
+                        <i class="fa fa-trash action-icon text-danger"></i>
                     </td>
                 </tr>
             </tbody>
-
         </table>
     </div>
 
-</div>
 
 
 <!-- DELETE CONFIRMATION MODAL -->

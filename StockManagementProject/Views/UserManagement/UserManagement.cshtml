@@ -139,134 +139,134 @@
 </div>
 
 <!-- ADD USER MODAL -->
+<!-- ======================= ADD USER MODAL ======================= -->
 <div class="modal fade" id="addUserModal" tabindex="-1">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content custom-modal">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <form class="modal-content custom-modal needs-validation" novalidate>
 
             <div class="modal-header bg-primary text-white">
                 <h5 class="modal-title">Add User</h5>
-                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
             </div>
 
             <div class="modal-body">
-                <div class="mb-3">
-                    <label class="form-label">First Name</label>
-                    <input type="text" class="form-control" placeholder="Enter First Name">
-                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="mb-3">
+                            <label class="form-label">First Name</label>
+                            <input class="form-control" required />
+                        </div>
 
-                <div class="mb-3">
-                    <label class="form-label">Last Name</label>
-                    <input type="text" class="form-control" placeholder="Enter Last Name">
-                </div>
+                        <div class="mb-3">
+                            <label class="form-label">Last Name</label>
+                            <input class="form-control" required />
+                        </div>
 
-                <div class="mb-3">
-                    <label class="form-label">Role</label>
-                    <select class="form-select">
-                        <option selected disabled>Role</option>
-                        <option>Admin</option>
-                        <option>Staff</option>
-                        <option>Manager</option>
-                    </select>
-                </div>
+                        <div class="mb-3">
+                            <label class="form-label">Role</label>
+                            <select class="form-select" required>
+                                <option value="">Select</option>
+                                <option>Admin</option>
+                                <option>Staff</option>
+                            </select>
+                        </div>
 
-                <div class="mb-3">
-                    <label class="form-label">Joined Date</label>
-                    <input type="date" class="form-control">
-                </div>
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control" required />
+                        </div>
+                    </div>
 
-                <div class="mb-3">
-                    <label class="form-label">Email</label>
-                    <input type="email" class="form-control" placeholder="Enter Email">
-                </div>
+                    <div class="col-sm-6">
+                        <div class="mb-3">
+                            <label class="form-label">Password</label>
+                            <input type="password" class="form-control" required />
+                        </div>
 
-                <div class="mb-3">
-                    <label class="form-label">Password</label>
-                    <input type="password" class="form-control" placeholder="Enter Password">
-                </div>
+                        <div class="mb-3">
+                            <label class="form-label">Confirm Password</label>
+                            <input type="password" class="form-control" required />
+                        </div>
 
-                <div class="mb-3">
-                    <label class="form-label">Confirm Password</label>
-                    <input type="password" class="form-control" placeholder="Confirm Password">
-                </div>
-
-                <div class="mb-3">
-                    <label class="form-label">Profile Image</label>
-                    <input type="file" class="form-control">
+                        <div class="mb-3">
+                            <label class="form-label">Profile Image</label>
+                            <input type="file" class="form-control" />
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <div class="modal-footer d-flex justify-content-end">
-                <button class="btn btn-primary">Save Changes</button>
+            <div class="modal-footer">
+                <button class="btn btn-primary">Save</button>
             </div>
 
-
-        </div>
+        </form>
     </div>
 </div>
 
 <!-- EDIT USER MODAL -->
+<!-- ======================= ADD USER MODAL ======================= -->
 <div class="modal fade" id="editUserModal" tabindex="-1">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content custom-modal">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <form class="modal-content custom-modal needs-validation" novalidate>
 
             <div class="modal-header bg-primary text-white">
                 <h5 class="modal-title">Edit User</h5>
-                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
             </div>
 
             <div class="modal-body">
-                <div class="mb-3">
-                    <label class="form-label">First Name</label>
-                    <input type="text" class="form-control" placeholder="Enter First Name">
-                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="mb-3">
+                            <label class="form-label">First Name</label>
+                            <input class="form-control" required />
+                        </div>
 
-                <div class="mb-3">
-                    <label class="form-label">Last Name</label>
-                    <input type="text" class="form-control" placeholder="Enter Last Name">
-                </div>
+                        <div class="mb-3">
+                            <label class="form-label">Last Name</label>
+                            <input class="form-control" required />
+                        </div>
 
-                <div class="mb-3">
-                    <label class="form-label">Role</label>
-                    <select class="form-select">
-                        <option selected disabled>Role</option>
-                        <option>Admin</option>
-                        <option>Staff</option>
-                        <option>Manager</option>
-                    </select>
-                </div>
+                        <div class="mb-3">
+                            <label class="form-label">Role</label>
+                            <select class="form-select" required>
+                                <option value="">Select</option>
+                                <option>Admin</option>
+                                <option>Staff</option>
+                            </select>
+                        </div>
 
-                <div class="mb-3">
-                    <label class="form-label">Joined Date</label>
-                    <input type="date" class="form-control">
-                </div>
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control" required />
+                        </div>
+                    </div>
 
-                <div class="mb-3">
-                    <label class="form-label">Email</label>
-                    <input type="email" class="form-control" placeholder="Enter Email">
-                </div>
+                    <div class="col-sm-6">
+                        <div class="mb-3">
+                            <label class="form-label">Password</label>
+                            <input type="password" class="form-control" required />
+                        </div>
 
-                <div class="mb-3">
-                    <label class="form-label">Password</label>
-                    <input type="password" class="form-control" placeholder="Enter Password">
-                </div>
+                        <div class="mb-3">
+                            <label class="form-label">Confirm Password</label>
+                            <input type="password" class="form-control" required />
+                        </div>
 
-                <div class="mb-3">
-                    <label class="form-label">Confirm Password</label>
-                    <input type="password" class="form-control" placeholder="Confirm Password">
-                </div>
-
-                <div class="mb-3">
-                    <label class="form-label">Profile Image</label>
-                    <input type="file" class="form-control">
+                        <div class="mb-3">
+                            <label class="form-label">Profile Image</label>
+                            <input type="file" class="form-control" />
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <div class="modal-footer d-flex justify-content-end">
-                <button class="btn btn-primary">Save Changes</button>
+            <div class="modal-footer">
+                <button class="btn btn-primary">Save</button>
             </div>
 
-
-        </div>
+        </form>
     </div>
 </div>
 
@@ -329,7 +329,24 @@
 </script>
 
 
+
+
 <!--Js End -->
+
+
+<script>
+    (() => {
+        const forms = document.querySelectorAll('.needs-validation');
+        forms.forEach(form => {
+            form.addEventListener('submit', e => {
+                if (!form.checkValidity()) {
+                    e.preventDefault();
+                }
+                form.classList.add('was-validated');
+            });
+        });
+    })();
+</script>
 
 <!-- CSS FIXED -->
 <style>
